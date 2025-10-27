@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitcount+Grid+Single+Ink:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bitcount+Grid+Double+Ink:wght@100..900&family=Bitcount+Grid+Single+Ink:wght@100..900&display=swap');
+
+:root {
+    --base-color: #FFF0F5;
+    --text-color:#301934;
+    --primary-color: #392A48;
+    --secondary-color: #FFF0F5;
+    --ulternate-color: #FFD8F0;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+
+html {
+    font-family: "Bitcount Grid Single Ink", system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: var(--text-color);
+}
+
+body {
+    padding: 1em;
+    background-color: var(--base-color);
+}
+
+
+h1, h2, h3 {
+    font-family: "Bitcount Grid Double Ink", system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+header, section  {
+    margin: 1em auto;
+    width: min(75em, 100%);
+    border-radius: 1em;
+}
+
+.marena{
+    margin-top: 5px;
+}
+
+/* makes it look fancy on screens */
+nav {
+    margin: 1em auto 3em auto;
+    width: min(1000px, 100%);
+}
+
+/* Designs the navigation bar */
+nav ul {
+    display: flex;
+    justify-content: flex-end;
+    list-style-type: none;
+    gap: 1.5em;
+}
+
+/* Designs the bar so it removes lines and unneccessary things */
+nav a {
+    text-decoration: none;
+    color: var(--text-color);
+}
+
+/* Makes the bar more interactive */
+nav a:hover {
+    text-decoration: underline;
+}
+
+p{
+    margin-top: 1em;
+    font-size: 1rem;
+}
+
+.horizontal-line{
+    border-bottom: 2px solid var(--primary-color);
+    width: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+section {
+    padding: 1em min(2em, 15%);
+    background-color: #FCfBF4;
+    
+}
+
+
+
+.current-projects ul{
+    list-style-type: none;
+    color: var(--text-color);
+
+}
+
+.current-projects a{
+    text-decoration: none;
+    color: var(--text-color);
+    margin-left: 15px;
+}
+
+.current-projects a:hover{
+    text-decoration: underline;
+}
+
+.about-me h2{
+    margin-bottom: 5px;
+}
+
+.about-me li{
+    list-style-type: none;
+    margin-top: 5px;
+}
