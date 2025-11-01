@@ -109,3 +109,30 @@ section {
     list-style-type: none;
     margin-top: 5px;
 }
+
+.coding-product h3{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.coding-container{
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.website-image{
+    width: 300px;
+    height: 200px;
+}
+
+.rpg-image{
+    margin-top: 10px;
+    width: 300px;
+    height: 200px;
+}
+
+.website-details{
+    font-size: 0.9em;
+    margin-bottom: 1em;
+}
