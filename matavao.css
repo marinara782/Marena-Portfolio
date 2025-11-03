@@ -36,8 +36,24 @@ header, section  {
     border-radius: 1em;
 }
 
-.marena{
-    margin-top: 5px;
+.typewriter h1{
+    overflow: hidden;
+    border-right: .15em solid pink;
+    white-space: nowrap;
+    letter-spacing: 1px;
+    animation:
+        typing 3.5s steps(40, end),
+        blink-caret .75s step-end infinite;
+}
+
+@keyframes typing{
+    from {width: 0;}
+    to { width: 14ch;}
+}
+
+@keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: #FFD8F0;}
 }
 
 /* makes it look fancy on screens */
